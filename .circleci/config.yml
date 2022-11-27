@@ -18,6 +18,7 @@ jobs:
       - docker/build:
           dockerfile: Dockerfile 
           image: img 
+      - checkout
 
 workflows:
   example-workflow:
